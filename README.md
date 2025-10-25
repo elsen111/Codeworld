@@ -1,7 +1,5 @@
 # 🌟 Codeworld
 
-## 📑Mündəricat
-🎯 [Layihənin Məqsədi] (#Layihənin məqsədi)
 
 ## 🎯 Layihənin Məqsədi
 Code World — texnologiya və proqramlaşdırma sahəsində öyrənmək istəyənlər üçün nəzərdə tutulmuş müasir veb platformadır. Burada tələbələr:
