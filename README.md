@@ -1,5 +1,6 @@
 # 🌟 Codeworld
 
+---
 
 ## 🎯 Layihənin Məqsədi
 Bu layihə kariyerasını texnologiya və proqramlaşdırma sahəsində davam etidrmək istəyənlər üçün nəzərdə tutulmuş təhsil mərkəzinin müasir veb səhifəsidir. Burada istifadəçilər aşağıdakılarla tanış ola bilərlər:
@@ -23,7 +24,7 @@ React Router 🌐 – səhifələr arasında naviqasiya
 
 Framer Motion ✨ – animasiyalar və interaktiv effektlər
 
-
+---
 
 ## 🧩 Komponentlər və Səhifələr
 
@@ -68,7 +69,7 @@ src/
     ├── images/
     └── icons/
 ```
-
+---
 
 ## 📥 Quraşdırma və İşə Salma
 ### 1. Layihəni klonlayın və qovluğa keçin
