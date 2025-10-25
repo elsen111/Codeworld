@@ -1,0 +1,236 @@
+.AboutBanner  .section-wrapper {
+    max-width: none;
+    width: 90.27%;
+    height: 60rem;
+    position: relative;
+    margin-top: 3.5rem;
+    /* overflow: hidden; */
+}
+
+.AboutBanner  .section-wrapper > * {
+    position: absolute;
+}
+
+.icon1 {
+    width: 48.07%;
+    bottom: 0;
+    left: 0;
+}
+
+.icon1  img,
+.icon2  img {
+    width: 100%;
+}
+
+.icon2 {
+    width: 27.23%;
+    right: 0;
+    top: 44%;
+}
+
+.AboutBanner  .title {
+    color: var(--dark-blue);
+    font-size: 14.06vw;
+    /* font-size: 20.259rem; */
+    font-family: "Yatra One", system-ui;
+    font-weight: 400;
+    width: 76.9rem;
+    height: 40.6rem;
+    padding-right: 1.5rem;
+    top: 0;
+    right: 0;
+}
+
+.AboutBanner  .title ~ div {
+    background: #d53d3d;
+    opacity: 0.3;
+    border-radius: 50%;
+}
+
+.AboutBanner  .title > span:first-child {
+    position: absolute;
+    top: -5%;
+    right: 35%;
+}
+
+.AboutBanner  .title > span:last-child {
+    position: absolute;
+    top: 43%;
+    right: 2%;
+}
+
+.circle1 {
+    /* width: 5.46%;
+    height: 11.8%; */
+    width: 7.1rem;
+    height: 7.1rem;
+    bottom: 16%;
+    left: 52%;
+}
+
+.circle2 {
+    /* width: 2.84%;
+    height: 6.16%; */
+    width: 3.7rem;
+    height: 3.7rem;
+    bottom: 13.3%;
+    left: 63%;
+}
+
+.circle3 {
+    /* width: 1.38%;
+    height: 3%; */
+    width: 1.8rem;
+    height: 1.8rem;
+    bottom: 10.5%;
+    left: 72%;
+}
+
+.circle4 {
+    /* width: 0.76%;
+    height: 1.66%; */
+    width: 1rem;
+    height: 1rem;
+    bottom: 7.5%;
+    left: 80%;
+}
+
+.circle5 {
+    /* width: 0.46%;
+    height: 1%; */
+    width: 0.6rem;
+    height: 0.6rem;
+    bottom: 6.5%;
+    left: 88%;
+}
+
+/* Tablet */
+@media screen and (max-width: 1100px) {
+    .AboutBanner  .section-wrapper {
+        height: 75.3rem;
+        margin-top: 0;
+    }
+
+    .AboutBanner  .title {
+        width: 87.7%;
+        font-size: 21.29vw;
+        left: 12%;
+        top: 10%;
+    }
+
+    .section-wrapper {
+        width: 85.765%;
+    }
+
+    .icon2 {
+        width: 41.22%;
+        right: 0;
+        top: 44%;
+    }
+
+    .AboutBanner  .title > span:first-child {
+        right: 40%;
+        top: -4%;
+    }
+
+    .circle1 {
+        width: 6.292rem;
+        height: 6.292rem;
+        bottom: 24%;
+        left: 45%;
+    }
+
+    .circle2 {
+        width: 3.279rem;
+        height: 3.279rem;
+        bottom: 21.3%;
+        left: 59%;
+    }
+
+    .circle3 {
+        width: 1.595rem;
+        height: 1.595rem;
+        bottom: 18.5%;
+        left: 72%;
+    }
+
+    .circle4 {
+        width: 0.886rem;
+        height: 0.886rem;
+        bottom: 17%;
+        left: 85%;
+    }
+
+    .circle5 {
+        display: none;
+    }
+}
+
+/* Phone */
+@media screen and (max-width: 768px) {
+    .AboutBanner  .section-wrapper {
+        height: 50.8rem;
+        width: 86.047%;
+        margin-top: 0;
+    }
+
+    .AboutBanner  .title {
+        width: 89.57%;
+        font-size: 9rem;
+        left: 10%;
+        top: 16%;
+    }
+
+    .section-wrapper {
+        width: 85.765%;
+    }
+
+    .icon2 {
+        width: 54.69%;
+        right: 0;
+        top: 44%;
+    }
+
+    .AboutBanner  .title > span:first-child {
+        right: 40%;
+        top: -3%;
+    }
+
+    .AboutBanner  .title > span:last-child {
+        top: 28%;
+    }
+
+    .circle1 {
+        width: 2.901rem;
+        height: 2.901rem;
+        bottom: 20%;
+        left: 45%;
+    }
+
+    .circle2 {
+        width: 1.512rem;
+        height: 1.512rem;
+        bottom: 18.3%;
+        left: 61%;
+    }
+
+    .circle3 {
+        width: 0.736rem;
+        height: 0.736rem;
+        bottom: 16.5%;
+        left: 75%;
+    }
+
+    .circle4 {
+        width: 0.409rem;
+        height: 0.409rem;
+        bottom: 15.5%;
+        left: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {    
+    .AboutBanner  .title {
+        font-size: 8rem;
+    }
+}

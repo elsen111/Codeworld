@@ -1,0 +1,183 @@
+:root{
+  --accent: #a25805;
+  --bg: #fff7f0;
+  --max-width: 1100px;
+}
+
+/* wrapper */
+.ChronologySection .chronology {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 3.5rem 1rem;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* main backbone (horizontal on desktop) */
+.ChronologySection .timeline {
+  position: relative;
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  border-top: 8px solid var(--accent); /* backbone */
+  box-sizing: border-box;
+}
+
+/* each item */
+.ChronologySection  .timeline-item {
+  position: relative;
+  flex: 1;
+  min-width: 120px;
+  height: 0; /* actual height derives from connectors and content positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+/* the dot on the backbone */
+.ChronologySection  .dot {
+  position: absolute;
+  left: 50%;
+  top: -10px; /* centered on backbone */
+  transform: translateX(-50%);
+  width: 16px;
+  height: 16px;
+  background: var(--accent);
+  border-radius: 50%;
+  border: 3px solid #fff;
+  z-index: 3;
+}
+
+/* vertical connector from backbone to the stub/content */
+.ChronologySection  .connector {
+  position: absolute;
+  left: 50%;
+  width: 0.8rem;
+  height: 12rem;
+  background: var(--accent);
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+/* small horizontal stub that visually connects to text */
+.ChronologySection  .stub {
+  position: absolute;
+  left: 50%;
+  height: 2px;
+  background: var(--accent);
+  z-index: 2;
+  transform-origin: left center;
+}
+
+/* content box (year + description) */
+.ChronologySection  .content {
+  position: absolute;
+  left: 50%;
+  width: 220px;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 4;
+}
+
+.ChronologySection  .year {
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.ChronologySection  .desc {
+  background: var(--bg);
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.3;
+}
+
+/* --- Position variations: top (text above backbone) --- */
+.ChronologySection  .timeline-item.top .connector {
+  bottom: 100%;
+  height: 60px; /* vertical distance from backbone up to stub */
+}
+
+.ChronologySection  .timeline-item.top .stub {
+  /* place the stub at the top of the connector, extending outward slightly so content doesn't overlap dot */
+  bottom: calc(100% + 60px - 8px); /* align with top of content area */
+  width: 72px; /* horizontal stub length */
+  transform: translateX(-50%);
+}
+
+.ChronologySection  .timeline-item.top .content {
+  bottom: calc(100% + 60px + 8px); /* place content above stub/connector */
+}
+
+/* small tweak: move year a bit up for visual spacing */
+.ChronologySection  .timeline-item.top .year { margin-bottom: 4px; }
+
+/* --- Position variations: bottom (text below backbone) --- */
+.ChronologySection  .timeline-item.bottom .connector {
+  top: 100%;
+  height: 60px;
+}
+
+.ChronologySection  .timeline-item.bottom .stub {
+  top: calc(100% + 60px - 8px);
+  width: 72px;
+  transform: translateX(-50%);
+}
+
+.ChronologySection  .timeline-item.bottom .content {
+  top: calc(100% + 60px + 8px);
+}
+
+/* make stub appear as tiny horizontal line slightly separated from dot */
+.ChronologySection  .timeline-item .stub {
+  border-radius: 2px;
+}
+
+/* Responsive: on small screens, vertical stacked timeline */
+@media (max-width: 768px) {
+  .ChronologySection  .timeline {
+    flex-direction: column;
+    align-items: flex-start;
+    border-top: none;
+    border-left: 4px solid var(--accent); /* vertical backbone */
+    padding-left: 2.2rem;
+  }
+
+  .ChronologySection  .timeline-item {
+    width: 100%;
+    padding: 1rem 0;
+    display: block;
+  }
+
+  /* hide stub (not needed in vertical mode) and use left-line + dot */
+  .stub { display: none; }
+  .connector { display: none; }
+
+  .ChronologySection  .dot {
+    left: -13px; /* place dot on the left backbone */
+    top: 6px;
+    transform: none;
+  }
+
+  .ChronologySection  .content {
+    position: relative;
+    left: 0;
+    transform: none;
+    margin-left: 0;
+    width: calc(100% - 2.2rem);
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .year { margin-bottom: 6px; }
+  .desc { display: block; }
+}

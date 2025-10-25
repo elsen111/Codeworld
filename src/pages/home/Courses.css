@@ -1,0 +1,16 @@
+.course-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .course-cards-wrapper {
+        row-gap: 2.5rem;
+    }
+
+    .course-card-content {
+        /* height: 40%; */
+    }
+}

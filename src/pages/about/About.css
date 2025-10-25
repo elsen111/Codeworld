@@ -1,0 +1,19 @@
+.about-page-section {
+    padding: 0  4.943rem;
+}
+
+/* Tablet */
+@media screen and (max-width: 1100px) {
+    .about-page-section {
+        padding: 0;
+        width: 90.27% !important;
+    }
+}
+
+/* Phone */
+@media screen and (max-width: 768px) {
+    .about-page-section {
+        padding: 0;
+        width: 86.047% !important;
+    }
+}

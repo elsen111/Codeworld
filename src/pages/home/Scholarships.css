@@ -1,0 +1,117 @@
+.curve-line img {
+    display: block;
+    margin: 0  auto;
+    width: 70rem;
+}
+
+.Scholarships {
+    margin-bottom: 13rem;
+}
+
+.Scholarships  .section-wrapper {
+    position: relative;
+}
+
+.Scholarships  .section-btn {
+    position: absolute;
+    right: 1%;
+    bottom: -7.7%;
+}
+
+.scholar-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0  1.5rem;
+    row-gap: 7rem;
+}
+
+.ScholarshipCard {
+    padding: 5.6rem  2rem  5rem  2rem;
+    background: 
+        linear-gradient(to top, #fff, var(--light-blue) 15%, var(--light-blue) 85%, #fff);
+    width: 23.6%;
+    color: var(--dark-blue);
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 6.5rem;
+}
+
+.icons > img:first-child {
+    width: 10rem;
+    height: 10rem;
+    margin-right: 2.65rem;
+}
+
+.scholar-title {
+    font-size: var(--header5);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.scholar-description {
+    font-size: var(--body-l);
+    font-weight: 400;
+    color: #000;
+}
+
+/* Tablet */
+@media screen and (max-width: 1100px) {
+    .Scholarships {
+        margin-bottom: 11rem;
+    }
+
+    .curve-line img {
+        width: 68.3rem;
+    }
+
+    .ScholarshipCard {
+        width: 45.5%;
+    }
+
+    .icons > img:first-child {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .Scholarships  .section-btn {
+        bottom: -4.8%;
+    }
+}
+
+/* Phone */
+@media screen and (max-width: 768px) {
+    .curve-line img {
+        width: 100%;
+    }
+
+    .icons > img:first-child {
+        width: 8rem;
+        height: 8rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .Scholarships {
+        margin-bottom: 9rem;
+    }
+
+    .scholar-cards-container {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 3.5rem;
+    }
+
+    .ScholarshipCard {
+        width: 80%;
+        min-width: 25.6rem;
+    }
+
+    .Scholarships  .section-btn {
+        bottom: -2.5%;
+    }
+}

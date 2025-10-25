@@ -1,0 +1,51 @@
+.link-btn {
+    padding: 1.3rem  2.18rem;
+    border-top-right-radius: 2.3rem;
+    border-bottom-left-radius: 2.3rem;
+    transition: all  .4s;
+    color: var(--dark-blue);
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+
+.link-btn.sign-up-btn {
+    background: var(--yellow);
+    border-radius: 2.3rem;
+}
+
+.link-btn.sign-up-btn:hover {
+    background: #8ecae6 !important;
+}
+
+.current-link {
+    background: var(--brown);
+}
+
+.current-link  a {
+    color: var(--white);
+}
+
+.link-btn:not(.current-link):hover {
+    background: var(--blue);
+}
+
+.link-btn:active {
+    background: var(--brown);
+}
+
+/* Tablet and phone */
+@media screen and (max-width: 1100px) {
+    .link-btn  a {
+        font-size: 1.687rem;
+    }
+
+    .link-btn {
+        padding: 0.914rem  1.532rem;
+        border-top-right-radius: 1.616rem;
+        border-bottom-left-radius: 1.616rem;
+    }
+
+    .link-btn.sign-up-btn {
+        padding: 0.914rem  1.265rem;
+    }
+}

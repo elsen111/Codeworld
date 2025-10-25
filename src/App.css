@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  /* Colors */
+  --black: #000;
+  --light-blue: #8ecae6;
+  --blue: #219ebc;
+  --dark-blue: #023047;
+  --yellow: #d1b200;
+  --brown: #b3640a;
+  --white: #fff;
+
+  /* Font sizes */
+  --header1: 8.4rem;
+  --header2: 5.8rem;
+  --header3: 4.9rem;
+  --header4: 3.6rem;
+  --header5: 2.8rem;
+  --header6: 2.4rem;
+  --body-l: 2rem;
+  --body-m: 1.6rem;
+  --body-s: 1.4rem;
+  --body-caption: 1.2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+main {
+  position: relative;
+  top: 8.6rem;
+}
+
+main > * {
+  margin-bottom: 8.4rem;
+}
+
+a {
+  text-decoration: none;
+  transition: all  0.3s;
+}
+
+section {
+  position: relative;
+}
+
+.section-wrapper {
+  /* max-width: 128rem; */
+  width: 88.88%;
+  margin: 0  auto;
+}
+
+.section-btn {
+  background: var(--brown);
+  width: auto;
+  display: inline-block;
+}
+
+.section-btn:hover  a {
+  color: var(--black);
+}
+
+.section-btn  a {
+  color: var(--white);
+}
+
+/* Tablet */
+@media screen and (max-width: 1100px) {
+  main {
+    top: 6.014rem;
+  }
+
+  .section-wrapper {
+    /* max-width: 72.3rem; */
+    width: 85.765%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Phone */
+@media screen and (max-width: 576px) {
+  main {
+    top: 3.798rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .section-wrapper {
+    /* max-width: 72.3rem; */
+    width: 86.047%;
   }
 }

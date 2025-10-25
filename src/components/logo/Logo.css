@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+.Logo {
+    font-family: "Yatra One", system-ui;
+    font-size: 3.755rem;
+    color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    width: 22.079rem;
+    justify-content: space-between;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.logo-img {
+    height: 2.704rem;
+    width: 2.704rem;
+}
+
+/* Tablet and phone */
+@media screen and (max-width: 1100px) {
+    .Logo {
+        font-size: 2.639rem;
+        width: 15.564rem;
+    }
+
+    .logo-img {
+        height: 1.9rem;
+        width: 1.9rem;
+    }
+}

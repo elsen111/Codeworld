@@ -1,0 +1,26 @@
+.section-title {
+    font-size: var(--header4);
+    font-weight: 600;
+    color: var(--dark-blue);
+    cursor: pointer;
+    margin-bottom: 2.2rem;
+}
+
+.section-title > * {
+    transition: all  0.3s;
+}
+
+.section-title:hover > *:last-child {
+    margin-left: 2.5rem;
+}
+
+.section-title > span {
+    margin-right: .5rem;
+}
+
+/* Phone */
+@media screen and (max-width: 576px) {
+    .section-title {
+        font-size: var(--header6);
+        text-align: center;    }
+}

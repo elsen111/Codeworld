@@ -1,0 +1,95 @@
+.Footer {
+  background: var(--dark-blue);
+  padding: 3.7rem 0;
+  color: var(--white);
+}
+
+.Footer a {
+  color: var(--white);
+  transition: all 0.3s;
+}
+.Footer a:hover {
+  transform: scale(1.2);
+}
+
+.Footer .section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Footer .Logo {
+  color: var(--white);
+}
+.Footer .Logo .logo-img {
+  width: 3.6rem;
+  height: 3.6rem;
+}
+.Footer .Logo .logo-text {
+  font-size: 5rem;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.Footer .courses,
+.Footer .other {
+  margin-top: 3rem;
+}
+.Footer .courses h6,
+.Footer .other h6 {
+  font-weight: 500;
+  font-size: var(--header6);
+  margin-bottom: 1rem;
+}
+
+.Footer .links,
+.Footer .other-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  column-gap: 2.5rem;
+  row-gap: 1rem;
+}
+
+.Footer .courses .links {
+  width: 28.2rem;
+}
+
+.Footer .links a,
+.Footer .other-links a {
+  font-weight: 400;
+  font-size: var(--body-l);
+}
+
+.Footer .second-row {
+  width: 18rem;
+  margin-top: 3.3rem;
+}
+
+.Footer .social-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Phone */
+@media screen and (max-width: 768px) {
+  .Footer .section-wrapper {
+    flex-direction: column;
+  }
+  .Footer .links {
+    width: 100%;
+  }
+  .Footer .second-row {
+    margin-top: 7.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .Footer .section-wrapper {
+    width: 75.5%;
+  }
+  .Footer .links a,
+  .Footer .other-links a {
+    font-size: var(--body-m);
+  }
+}
