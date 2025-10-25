@@ -2,12 +2,31 @@
 
 
 ## 🎯 Layihənin Məqsədi
-Code World — texnologiya və proqramlaşdırma sahəsində öyrənmək istəyənlər üçün nəzərdə tutulmuş müasir veb platformadır. Burada tələbələr:
+Bu layihə kariyerasını texnologiya və proqramlaşdırma sahəsində davam etidrmək istəyənlər üçün nəzərdə tutulmuş təhsil mərkəzinin müasir veb səhifəsidir. Burada istifadəçilər aşağıdakılarla tanış ola bilərlər:
 
-💻 Müxtəlif texnologiya və proqramlaşdırma kurslarına qatılaraq bacarıqlarını inkişaf etdirə bilərlər
+💻 Müxtəlif texnologiya və proqramlaşdırma kursları
 
-👩‍🏫 Peşəkar və təcrübəli müəllimlərdən dərs ala bilərlər
+👩‍🏫 Peşəkar və təcrübəli müəllimlər
 
-🎁 Təqaüd proqramları və xüsusi imkanlarla öyrənmə prosesini daha əlçatan edə bilərlər
+🎁 Təqaüd proqramları
 
-Code World istifadəçilərə həm interaktiv, həm də responsiv bir təhsil mühiti təqdim edir, həmçinin real dünyada tətbiq edilə biləcək bacarıqları öyrənməyə imkan yaradır.
+Code World tələbələrə peşəkar və interaktiv təhsil mühiti vəd edir.
+
+
+
+## 🛠️ İstifadə Olunan Texnologiyalar
+
+React.js ⚛️ – komponentlər üzərində qurulmuş müasir yönümlü arxitektura üçün
+
+React Router 🌐 – səhifələr arasında naviqasiya
+
+Framer Motion ✨ – animasiyalar və interaktiv effektlər
+
+
+## 📥 Quraşdırma və İşə Salma
+### 1. Layihəni klonlayın
+```git clone https://github.com/elsen111/Codeworld.git
+   cd Codeworld
+
+
+
