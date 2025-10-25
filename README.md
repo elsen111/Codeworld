@@ -12,6 +12,7 @@ Bu layihə kariyerasını texnologiya və proqramlaşdırma sahəsində davam et
 
 Code World tələbələrə peşəkar və interaktiv təhsil mühiti vəd edir.
 
+---
 
 
 ## 🛠️ İstifadə Olunan Texnologiyalar
