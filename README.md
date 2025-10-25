@@ -23,6 +23,52 @@ React Router 🌐 – səhifələr arasında naviqasiya
 Framer Motion ✨ – animasiyalar və interaktiv effektlər
 
 
+
+## 🧩 Komponentlər və Səhifələr
+
+Code World platforması React ilə qurulmuşdur və komponent əsaslı arxitekturaya malikdir.
+
+### 🔹 Pages (Səhifələr)
+
+Home – Landing page, əsas məlumat və kursların təqdimatı.
+
+About – Platforma haqqında məlumat.
+
+Courses – Mövcud kursların siyahısı və detalları.
+
+Contact – İstifadəçilərin əlaqə məlumatlarını göndərə biləcəyi form.
+
+
+### 🔹 Components (Komponentlər)
+
+Header – Naviqasiya və loqo.
+
+Footer – Əlaqə məlumatları və sosial linklər.
+
+Button – Təkrar istifadə olunan düymə komponenti.
+
+Card – Kurs və məlumat blokları üçün.
+
+SectionTitle – Hər bir bölmənin başlığı üçün komponent.
+
+```
+src/
+├── components/
+│   ├── Header/
+│   ├── Footer/
+│   ├── Button/
+│   └── Card/
+├── pages/
+│   ├── home/
+│   ├── about/
+│   ├── courses/
+│   └── contact/
+└── assets/
+    ├── images/
+    └── icons/
+```
+
+
 ## 📥 Quraşdırma və İşə Salma
 ### 1. Layihəni klonlayın və qovluğa keçin
 ```
