@@ -4,10 +4,12 @@
 🎯 [Layihənin Məqsədi] (#Layihənin məqsədi)
 
 ## 🎯 Layihənin Məqsədi
-Codeworld layihəsi, müasir veb texnologiyaları ilə interaktiv və cəlbedici veb saytlar yaratmağı öyrənmək istəyənlər üçün nəzərdə tutulmuşdur. Bu layihə vasitəsilə istifadəçilər:
+Code World — texnologiya və proqramlaşdırma sahəsində öyrənmək istəyənlər üçün nəzərdə tutulmuş müasir veb platformadır. Burada tələbələr:
 
-React komponentləri ilə işləməyi öyrənir
+💻 Müxtəlif texnologiya və proqramlaşdırma kurslarına qatılaraq bacarıqlarını inkişaf etdirə bilərlər
 
-Tailwind CSS ilə sürətli və responsiv dizaynlar yaradır
+👩‍🏫 Peşəkar və təcrübəli müəllimlərdən dərs ala bilərlər
 
-Modern veb tətbiqlər üçün əsas praktikaları mənimsəyir
+🎁 Təqaüd proqramları və xüsusi imkanlarla öyrənmə prosesini daha əlçatan edə bilərlər
+
+Code World istifadəçilərə həm interaktiv, həm də responsiv bir təhsil mühiti təqdim edir, həmçinin real dünyada tətbiq edilə biləcək bacarıqları öyrənməyə imkan yaradır.
