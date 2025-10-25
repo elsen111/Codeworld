@@ -24,9 +24,18 @@ Framer Motion ✨ – animasiyalar və interaktiv effektlər
 
 
 ## 📥 Quraşdırma və İşə Salma
-### 1. Layihəni klonlayın
-```git clone https://github.com/elsen111/Codeworld.git
+### 1. Layihəni klonlayın və qovluğa keçin
+```
+   git clone https://github.com/elsen111/Codeworld.git
    cd Codeworld
+```
 
+### 2. React tətbiqinin işə salınması üçün lazımi olan paketləri yükləyin
+```
+npm install
+```
 
-
+### 3. Layihəni işə salın
+```
+   npm start
+```
